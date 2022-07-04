@@ -1,5 +1,6 @@
 body{
-    font-family: 'Finlandica', sans-serif;   
+    font-family: 'Finlandica', sans-serif;
+    margin: 0px;   
 }
 h1 {
     font-size: 50px;
@@ -9,14 +10,15 @@ h1 {
 }
 section {
     display: flex;
+    margin-bottom: 50px;
 }
 .half-width {
     width: 50%;
-    padding-left: 10px;
+    padding-left: 20px;
+
 }
 .half-width img {
     width: 100%;
-    padding-right: 10px;
 }
 .fb-link {
     text-decoration: none;
@@ -25,4 +27,18 @@ section {
     border-radius: 40px;
     color: whitesmoke;
     font-weight: 800;
+}
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width p {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
