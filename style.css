@@ -8,7 +8,7 @@ h1 {
 .red {
     color: skyblue;
 }
-section {
+.flex-area {
     display: flex;
     margin-bottom: 50px;
 }
@@ -41,4 +41,28 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+h2 {
+    font-size: 40px;
+}
+.experienc-tab {
+    display: flex;
+
+}
+.gunin{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: -15px 15px 25px 20px gray;
+    padding: 40px;
+    border-radius: 20px;
+}
+#kakashi{
+    border-right: 5px solid olivedrab;
+}
+#jiraiya{
+    border-right: 5px solid slateblue;
+}
+footer p{
+    text-align: center;
 }
